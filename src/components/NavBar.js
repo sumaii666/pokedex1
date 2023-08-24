@@ -1,18 +1,19 @@
 import React from 'react';
-import AppRouter from '../router/AppRouter';
+import { Link } from 'react-router-dom';
+import '../styles/navstyle.css';
 
-export const NavBar= () =>{
-return(
-<nav>
-<ul>
-<li><a href=''>Home</a></li>
-<li><a href=''>About</a></li>
+     function NavBar()
+     {
+          return(
 
-     </ul>
+               <nav className='header'>
+                    <ul>
+                         <li><Link to="/">Home</Link></li>
+                         <li><Link to="/about">About</Link></li>
+                         <li><Link to="/pokedex">pokedex</Link></li>
+                    </ul>
+               </nav>
+          )
+     }
 
-</nav>
-
-);
-
-}
 export default NavBar;

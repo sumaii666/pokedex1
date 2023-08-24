@@ -1,11 +1,19 @@
 import './App.css';
+import Header from './components/Header';
+import AppRouter from './router/AppRouter';
 
 function App() {
   return (
-    <div className="App">
-     
+
+    <div className='App'>
+
+      <AppRouter/>
+      <Header></Header>
+
     </div>
+    
   );
+
 }
 
 export default App;
