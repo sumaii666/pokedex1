@@ -8,9 +8,9 @@ import '../styles/navstyle.css';
 
                <nav className='header'>
                     <ul>
-                         <li><Link to="/">Home</Link></li>
-                         <li><Link to="/about">About</Link></li>
-                         <li><Link to="/pokedex">pokedex</Link></li>
+                         <li><Link to="/">HOME</Link></li>
+                         <li><Link to="/about">ABOUT</Link></li>
+                         <li><Link to="/pokedex">POKEDEX</Link></li>
                     </ul>
                </nav>
           )

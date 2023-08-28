@@ -1,15 +1,32 @@
+h3{
+
+    color: #5d7a84 
+}
+h2{
+    color: #5d7a84;
+    text-align:left;
+
+}
+
+.patron{
+
+    background-color: #d6f5ff;
+    border-radius: 25px;
+    padding: 15px;
+  }
+
 .header
 {
     
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
-    padding: 30px; 
+ background-image: url(../pokeapi.jpg);
+ 
+    padding: 50px; 
 }
 
 .header ul
 {
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-color: #b4cb7e;
+    
     
    
     display: flex;
@@ -21,27 +38,45 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 .header ul li
 {
     list-style-type: none;
+    
 }
 
 .header ul li a
 {
     font-size: x-large;
-    font-family:sans-serif;
+    font-family:fantasy;
     margin: 10px;
-    color: #757575;
+    color: #40a2c9;
     text-decoration: none;
+
 }
 h1{ 
    background-color: #85FFBD;
-background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+   color: #40a2c9   
 
 }
 body{
-background-color: #90e0ef
-
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 }
 .pokemon-container{
 
     display: flex;
     justify-content: space-around;
+}
+
+.pokemon-card
+{
+    padding: 20px;
+    border-radius: 16px;
+    background: #d6f5ff;
+    box-shadow: 8px 8px 8px rgb(0, 0, 0, 0.8);
+   
+}
+
+.pokemon-card p
+{
+    text-transform: uppercase;
+    font-weight: bold;
 }
