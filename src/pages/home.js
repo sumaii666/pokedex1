@@ -6,6 +6,7 @@ export const Home =()=> {
 <div>
 <h1>Inicio</h1>
 <Header></Header>
+
 </div>
 
     )

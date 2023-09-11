@@ -3,7 +3,7 @@ h3{
     color: #5d7a84 
 }
 h2{
-    color: #5d7a84;
+    color: #b3ab18;
     text-align:left;
 
 }
@@ -12,23 +12,22 @@ h2{
 
     background-color: #d6f5ff;
     border-radius: 25px;
-    padding: 15px;
+    padding: 40px;
+   
   }
 
 .header
 {
     
- background-image: url(../pokeapi.jpg);
- 
+ background-image: url(../pokeapi.png);
+ background-size: cover;
     padding: 50px; 
 }
 
 .header ul
 {
-    background-color: #b4cb7e;
-    
-    
-   
+    background: #8287ea ;
+   border-radius: 100px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -38,7 +37,7 @@ h2{
 .header ul li
 {
     list-style-type: none;
-    
+
 }
 
 .header ul li a
@@ -46,19 +45,26 @@ h2{
     font-size: x-large;
     font-family:fantasy;
     margin: 10px;
-    color: #40a2c9;
+    color: #d7d7d7;
     text-decoration: none;
+ 
+}
+
+.header ul li a:hover
+{
+    color: #00ffd9;
 
 }
+
 h1{ 
    background-color: #85FFBD;
-   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+   background-image: linear-gradient(45deg, #5d9c7a 0%, #FFFB7D 100%);
    color: #40a2c9   
 
 }
 body{
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #8287ea 100%);
 }
 .pokemon-container{
 
@@ -70,13 +76,27 @@ body{
 {
     padding: 20px;
     border-radius: 16px;
-    background: #d6f5ff;
+    background: #149163;
     box-shadow: 8px 8px 8px rgb(0, 0, 0, 0.8);
+    
+
+}
+
+
+.pokemon-card:hover
+{
+    padding: 20px;
+    border-radius: 16px;
+    background: #FFFB7D;
+    box-shadow: 8px 8px 8px rgb(0, 0, 0, 0.8);
+    
    
 }
+
 
 .pokemon-card p
 {
     text-transform: uppercase;
     font-weight: bold;
 }
+

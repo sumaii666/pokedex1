@@ -5,24 +5,27 @@ import Home from '../pages/home';
 import About from '../pages/About';
 import Pokedex from '../pages/Pokedex';
 
-    function AppRouter (){
-        return(
-          <div>
+function AppRouter ()
+{
+  return(
 
-            <NavBar/>
-            <Routes>
+    <div>
 
-              <Route path="/" element={<Home/>}></Route>
-              <Route path="/about" element={<About/>}></Route>
-              <Route path="/pokedex" element={<Pokedex/>}></Route>
+      <NavBar/>
 
-            </Routes>
-            
-          </div>
-      
-          );
+        <Routes>
 
-    }
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="/pokedex" element={<Pokedex/>}></Route>
+
+        </Routes>
+
+    </div>
+
+  );
+
+}
 
 
 export default AppRouter;

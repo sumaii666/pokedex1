@@ -30,11 +30,11 @@ function Header() {
     }, [])
     return (
         <header>
-      <h3>algunos pokemon al azar...</h3>
+      <h1>Random Pokémon Header</h1>
       <div className="pokemon-container">
         {randomPokemons.map((pokemon) => (
-          <div className='pokemon-card' key={pokemon.id}>
-            <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+          <div key={pokemon.id}>
+            <img className='pokemon-img' src={pokemon.sprites.other['official-artwork']['front_default']} alt={pokemon.name} />
             <p>{pokemon.name}</p>
           </div>
         ))}

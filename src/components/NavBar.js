@@ -8,6 +8,7 @@ import '../styles/navstyle.css';
 
                <nav className='header'>
                     <ul>
+                     
                          <li><Link to="/">HOME</Link></li>
                          <li><Link to="/about">ABOUT</Link></li>
                          <li><Link to="/pokedex">POKEDEX</Link></li>
