@@ -63,8 +63,8 @@ h1{
 
 }
 body{
-    background-color: #5d9c7a;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #8287ea 100%);
+    background-color: #054083;
+    background-image: linear-gradient(45deg, #3f1be3 0%, #35ffff 100%);
 }
 .pokemon-container{
 
@@ -78,19 +78,11 @@ body{
     border-radius: 16px;
     background: #149163;
     box-shadow: 8px 8px 8px rgb(0, 0, 0, 0.8);
+
+
+
     
 
-}
-
-
-.pokemon-card:hover
-{
-    padding: 20px;
-    border-radius: 16px;
-    background: #FFFB7D;
-    box-shadow: 8px 8px 8px rgb(0, 0, 0, 0.8);
-    
-   
 }
 
 
@@ -100,3 +92,187 @@ body{
     font-weight: bold;
 }
 
+a
+{
+    text-decoration: none;
+}
+
+.nombres
+{ 
+    margin-top: 10px;
+    display:flex;
+    font-size: 30px;
+    font-family:monospace;
+    color: whitesmoke;
+    background-color: #afafaf;
+    background-image: linear-gradient(45deg, #1b54e3 0%, #31cc96 100%);
+    width: 40%;
+    border-radius: 15px;
+    
+    }
+
+
+img {
+  display:flex ;
+  background-color: #054083;
+  background-image: linear-gradient(45deg, #564c86 0%, #00c6c6 100%);
+  width: 260px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border-radius: 10%;
+}
+.numeral{
+    width: 16%;
+    font-size: 200%;
+    display: flex;
+    color: whitesmoke ;
+    border-radius: 15px;
+      background-color: #afafaf;
+    background-image: linear-gradient(45deg, #571be3 0%, #35ffb8 100%);
+    margin-top: 10%;
+}
+
+button{
+
+
+}
+
+input {
+    border-radius: 10px;
+    width: 380px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.perry{
+width: 100%;
+}
+
+
+.pokemon-img{
+
+    width: 160px;
+    height: 185px;
+}
+
+.tumai{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+    width: 100%;
+}
+
+.un {
+    margin-top: 10px;
+    display:flex;
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    width: 40%;
+    background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+    width: 100px;
+}
+
+.do {
+    margin-top: 10px;
+    display:flex;
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    width: 40%;
+    background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+     width: 100px;
+}
+
+.tr{
+    margin-top: 10px;
+    display:flex;
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    width: 40%;
+    background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+    width: 100px;
+    height: 60%;
+    }
+
+
+.cu {
+    margin-top: 10px;
+    display:flex;
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    width: 40%;
+    background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+     width: 100px;
+    
+}
+
+.qui{
+    margin-top: 10px;
+    display:flex;
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    width: 40%;
+     background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+     width: 100px;
+}
+
+
+
+
+
+
+.se {
+    margin-top: 10px;
+    display:flex;
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    width: 40%;
+     background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+     width: 100px;
+     
+}
+.tipos{
+
+    margin-top: 10px;
+    display:flex;
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    width: 40%;
+    background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+    width: 100px;  
+    
+
+}
+.elfav{
+    border-radius: 5px;
+     color: whitesmoke;
+     width: 10%;
+     font-size: 20px; 
+      background-color: #5d9c7a;
+    background-image: linear-gradient(45deg, #5cc28c 0%, #8287ea 100%);
+    display:flex;
+}
+
+.espera{
+ color: whitesmoke;
+     width: 100%;
+     font-size: 60px; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
